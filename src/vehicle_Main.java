@@ -13,6 +13,7 @@ public class vehicle_Main
 		System.out.println("The vehicle have " + EngineType +" engine type.");
 		car.getDoors();
 		car.getWheels(Oil);
+		
 	}
 
 }

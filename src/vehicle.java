@@ -1,12 +1,10 @@
 
-public class vehicle 
+public class vehicle extends implament
 {
 	double Size;
-	int Doors;
-	int Wheels;
-	String Engine;
-	String Desel;
-	String Oil;
+	int Doors, Wheels;
+	String Engine, Desel, Oil;
+	
 	
 	public vehicle(double size)
 	{
@@ -41,11 +39,17 @@ public class vehicle
 		if (engine.equals(Oil))
 		{
 			System.out.println("This car can have 4 wheels.");
+			
 		}
 		else
 		{
-			System.out.println("This car can have 6 or more wheels");
+			System.out.println("This car can have 6 or more wheels, and top speed is " + speed);
 		}
+	}
+	
+	public void speed(int s)
+	{
+		System.out.println(speed); 
 	}
 
 }
